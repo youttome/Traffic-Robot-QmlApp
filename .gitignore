@@ -1,0 +1,46 @@
+# Build output
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt / QML generated files
+.qt/
+.qtcreator/
+.qtc_clangd/
+.rcc/
+qmltypes/
+meta_types/
+*_qmltyperegistrations.cpp
+*/qmlls.ini
+
+# IDE files
+.vscode/
+*.pro.user
+*.user
+*.creator
+*.files
+*.includes
+
+# Binaries and objects
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+appleft
+appCircleBarsUI
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime noise
+*.log
